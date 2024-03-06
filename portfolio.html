@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 120vh;
+            margin: 0;
+            flex-direction: column;
+            text-align: left;
+            background-image: url('');
+        }
+
+        h1 {
+            font-size: 80px;
+            text-align: center;
+            line-height: 1; 
+            font-family: baskerville, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 10px;
+            color: #E7E88D;
+        }
+
+        .shining {
+            animation: shine 800ms infinite alternate;
+            text-shadow: 0 0 5px yellow, 0 0 5px #fff, 0 0 10px gold;
+        }
+
+        @keyframes shine {
+        from {
+            text-shadow: 0 0 2px yellow, 0 0 2px #fff, 0 0 5px gold;
+        }
+        to {
+            text-shadow: 0 0 5px yellow, 0 0 5px gold, 0 0 10px gold;
+        }
+        }   
+
+        .details {
+            font-size: 28px;
+            font-family: math;
+            color: #F8F8EA;
+            text-align: left;
+
+        }
+
+        .git {
+            font-size: 28px;
+            font-family: math;
+            color: #F8F8EA;
+            text-align: left;
+
+        }
+
+        img {
+            width: 180px;
+            height: 180px;
+            margin-top: 40px;
+        }
+
+        .button-link {
+            display: inline-block;
+            padding: 12px 20px;
+            font-size: 28px;
+            text-decoration: none;
+            background-color: #E7E88D;
+            color: #43255F;
+            border-radius: 20px;
+            margin-top: 5px;
+        }
+
+    </style>
+    <title>Portfolio</title>
+</head>
+<body style="background-color: #43255F;">
+    <h1><span class="shining"><b>Portfolio</b></span></h1>  
+    <img src="https://cdn-icons-png.flaticon.com/512/219/219970.png" alt="error loading image!">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p class="details"><b>Name:</b> Vansh Bhardwaj <br> <b>Age:</b> 18 <br> <b>Phone number:</b> +91 8764089106 <br> <b>E-mail:</b> vanshbhardwaj@jklu.edu.in <br> <b>College name:</b> JKLU <br> <b></b> Python, C, Bash, HTML, CSS</p>
+    <p class="git"> I am a begineer, and its been like 6 months since i seriously started with coding and programming. I started with python, with python I decided to learn some Bash as well. Tried Bash but didn't really like it. Then I learned HTML, some CSS and JavaScript. I am still learning JS as I get time. Also, I am learning C right now. <br> Click on the link below to visit my GitHub profile to see some of my codes and projects: </p>
+    <a href="https://github.com/vb10i" class="button-link" target="_blank">Visit My Github</a>
+    
+</body>
+</html>
